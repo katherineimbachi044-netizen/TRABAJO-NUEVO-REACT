@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #1f4e79;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #2e75b6;
+  text-align: center;
+}
+
+/* Tablas */
+table {
+  width: 85%;
+  margin: 20px auto 40px;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 3px 8px #ccc;
+}
+
+th {
+  background-color: #1f4e79;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #eef5fb;
+}
+
+/* Tarjetas */
+.tarjeta {
+  width: 220px;
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px #ccc;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* Imágenes */
+img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
